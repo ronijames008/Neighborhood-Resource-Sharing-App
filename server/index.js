@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 8082
+const port = process.env.PORT
 const itemRoutes = require('./routes/itemRoutes'); // Import item routes
 const mapItemRoutes = require('./routes/mapItemRoutes'); // Import map item routes
 const trustScoreRoutes = require('./routes/trustScoreRoutes'); // Import trust score routes
