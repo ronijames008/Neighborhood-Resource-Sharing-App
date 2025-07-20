@@ -2,7 +2,7 @@ import { axiosInstance } from ".";
 
 export const getUserTestScore = async (userId) => {
     try {
-        const response = await axiosInstance.get(`/proxy/api/trust-score/${userId}`);
+        const response = await axiosInstance.get(`${import.meta.env.VITE_API_URL}/api/trust-score/${userId}`);
         return response.data;
     } catch (error) {
         console.error("Error fetching user trust score:", error);

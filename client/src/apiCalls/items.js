@@ -2,7 +2,7 @@ import { axiosInstance } from ".";
 
 export const getAllItems = async () => {
     try {
-        const response = await axiosInstance.get("/proxy/api/items");
+        const response = await axiosInstance.get(`${import.meta.env.VITE_API_URL}/api/items`);
         return response.data;
     } catch (error) {
         console.error("Error fetching items:", error);
@@ -12,17 +12,17 @@ export const getAllItems = async () => {
 
 export const getItemDetailsById = async (id) => {
     try {
-        const response = await axiosInstance.get(`/proxy/api/items/${id}`);
+        const response = await axiosInstance.get(`${import.meta.env.VITE_API_URL} / api / items / ${id}`);
         return response.data;
     } catch (error) {
-        console.error(`Error fetching item with id ${id}:`, error);
+        console.error(`Error fetching item with id ${id}: `, error);
         throw error;
     }
 }
 
 export const submitItem = async (itemData) => {
     try {
-        const response = await axiosInstance.post("/proxy/api/items", itemData);
+        const response = await axiosInstance.post(`${import.meta.env.VITE_API_URL}/api/items`, itemData);
         return response.data;
     } catch (error) {
         console.error("Error creating item:", error);
@@ -32,7 +32,7 @@ export const submitItem = async (itemData) => {
 
 export const reqToBorrowItem = async (itemId, userId) => {
     try {
-        const response = await axiosInstance.post(`/proxy/api/items/${itemId}/request`, { userId });
+        const response = await axiosInstance.post(`${import.meta.env.VITE_API_URL} /api/items / ${itemId}/request`, { userId });
         return response.data;
     } catch (error) {
         console.error(`Error requesting to borrow item with id ${itemId}:`, error);
