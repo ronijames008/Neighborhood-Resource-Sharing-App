@@ -1,9 +1,15 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { getAllItems } from '../apiCalls/items';
+import { getAllItems, getItemDetailsById } from '../apiCalls/items';
 
 // Async thunk for fetching items
 export const fetchItems = createAsyncThunk('items/fetchItems', async () => {
     const data = await getAllItems();
+    return data;
+});
+
+// Async thunk for fetching a single item's details
+export const fetchItemDetails = createAsyncThunk('items/fetchItemDetails', async (id) => {
+    const data = await getItemDetailsById(id);
     return data;
 });
 
@@ -16,6 +22,9 @@ const itemsSlice = createSlice({
         search: '',
         category: 'All Categories',
         availability: 'Available',
+        itemDetails: null,
+        itemDetailsLoading: false,
+        itemDetailsError: null,
     },
     reducers: {
         setSearch(state, action) {
@@ -41,6 +50,20 @@ const itemsSlice = createSlice({
             .addCase(fetchItems.rejected, (state, action) => {
                 state.loading = false;
                 state.error = action.error.message;
+            })
+            // Item details cases
+            .addCase(fetchItemDetails.pending, (state) => {
+                state.itemDetailsLoading = true;
+                state.itemDetailsError = null;
+                state.itemDetails = null;
+            })
+            .addCase(fetchItemDetails.fulfilled, (state, action) => {
+                state.itemDetailsLoading = false;
+                state.itemDetails = action.payload;
+            })
+            .addCase(fetchItemDetails.rejected, (state, action) => {
+                state.itemDetailsLoading = false;
+                state.itemDetailsError = action.error.message;
             });
     },
 });
