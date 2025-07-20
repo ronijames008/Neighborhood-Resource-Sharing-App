@@ -4,6 +4,12 @@ const port = 8082
 const itemRoutes = require('./routes/itemRoutes'); // Import item routes
 const mapItemRoutes = require('./routes/mapItemRoutes'); // Import map item routes
 const trustScoreRoutes = require('./routes/trustScoreRoutes'); // Import trust score routes
+const cors = require('cors');
+
+app.use(cors({
+    origin: 'https://neighborhood-resource-sharing-app.onrender.com',
+    credentials: true,
+}));
 
 app.use(express.json()); // Middleware to parse JSON bodies
 app.use("/api/items", itemRoutes); // Item routes
