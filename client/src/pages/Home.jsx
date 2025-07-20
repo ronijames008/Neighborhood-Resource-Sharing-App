@@ -55,6 +55,11 @@ function Home() {
   return (
     <div style={{ padding: 24 }}>
       <h1>Item Catalog</h1>
+      <div style={{ marginBottom: 16, textAlign: "right" }}>
+        <Button type="primary" onClick={() => navigate("/add-item")}>
+          Add New Item
+        </Button>
+      </div>
       <Row gutter={[16, 16]} style={{ marginBottom: 16 }}>
         <Col xs={24} sm={12} md={8} lg={6}>
           <Search
