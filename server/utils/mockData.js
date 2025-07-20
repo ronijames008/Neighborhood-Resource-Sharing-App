@@ -8,7 +8,7 @@ const items = [
         "owner": "Joseph Norris",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/yogamat.jpg",
+        "image": "https://m.media-amazon.com/images/I/71nS4M4jSML._AC_SL1500_.jpg",
         "borrowedBy": "Amanda Bryant"
     },
     {
@@ -19,7 +19,7 @@ const items = [
         "owner": "Daniel Yates",
         "condition": "Excellent",
         "available": false,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -30,7 +30,7 @@ const items = [
         "owner": "Juan Smith",
         "condition": "Like New",
         "available": true,
-        "image": "https://example.com/images/catan.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Catan-2015-boxart.jpg/220px-Catan-2015-boxart.jpg",
         "borrowedBy": "Nancy Deleon"
     },
     {
@@ -41,7 +41,7 @@ const items = [
         "owner": "Kyle Wright",
         "condition": "Excellent",
         "available": true,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": "Nancy Wheeler"
     },
     {
@@ -52,7 +52,7 @@ const items = [
         "owner": "Matthew Mosley",
         "condition": "Excellent",
         "available": true,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -63,7 +63,7 @@ const items = [
         "owner": "Riley Thomas",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -74,7 +74,7 @@ const items = [
         "owner": "Steven Hall",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/yogamat.jpg",
+        "image": "https://m.media-amazon.com/images/I/71nS4M4jSML._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -85,7 +85,7 @@ const items = [
         "owner": "Lorraine Owen",
         "condition": "Like New",
         "available": true,
-        "image": "https://example.com/images/catan.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Catan-2015-boxart.jpg/220px-Catan-2015-boxart.jpg",
         "borrowedBy": "Alexander Waters"
     },
     {
@@ -96,7 +96,7 @@ const items = [
         "owner": "Raymond Holt",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/ladder.jpg",
+        "image": "https://m.media-amazon.com/images/I/71XGv9N16AL._AC_SL1500_.jpg",
         "borrowedBy": "Jared Mcdonald"
     },
     {
@@ -107,7 +107,7 @@ const items = [
         "owner": "Michele Sullivan",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -118,7 +118,7 @@ const items = [
         "owner": "Shaun Morris",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/yogamat.jpg",
+        "image": "https://m.media-amazon.com/images/I/71nS4M4jSML._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -129,7 +129,7 @@ const items = [
         "owner": "Jeremiah Smith",
         "condition": "Excellent",
         "available": false,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -140,7 +140,7 @@ const items = [
         "owner": "Antonio Bell",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": "Randall Johnson"
     },
     {
@@ -151,7 +151,7 @@ const items = [
         "owner": "Robert Clements",
         "condition": "Like New",
         "available": false,
-        "image": "https://example.com/images/catan.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Catan-2015-boxart.jpg/220px-Catan-2015-boxart.jpg",
         "borrowedBy": null
     },
     {
@@ -162,7 +162,7 @@ const items = [
         "owner": "Samantha Burns",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/yogamat.jpg",
+        "image": "https://m.media-amazon.com/images/I/71nS4M4jSML._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -173,7 +173,7 @@ const items = [
         "owner": "Sheryl Evans",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/yogamat.jpg",
+        "image": "https://m.media-amazon.com/images/I/71nS4M4jSML._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -184,7 +184,7 @@ const items = [
         "owner": "Miss Maria Webb",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -195,7 +195,7 @@ const items = [
         "owner": "Michael Pearson",
         "condition": "Like New",
         "available": false,
-        "image": "https://example.com/images/catan.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Catan-2015-boxart.jpg/220px-Catan-2015-boxart.jpg",
         "borrowedBy": "Nathan Phillips"
     },
     {
@@ -206,7 +206,7 @@ const items = [
         "owner": "Jill Simmons",
         "condition": "Very Good",
         "available": false,
-        "image": "https://example.com/images/crockpot.jpg",
+        "image": "https://m.media-amazon.com/images/I/71b2fKqX4EL._AC_SL1500_.jpg",
         "borrowedBy": "Robert Hill"
     },
     {
@@ -217,7 +217,7 @@ const items = [
         "owner": "Curtis Carpenter",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/ladder.jpg",
+        "image": "https://m.media-amazon.com/images/I/71XGv9N16AL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -228,7 +228,7 @@ const items = [
         "owner": "Jesus Stevenson",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -239,7 +239,7 @@ const items = [
         "owner": "Michele Kirk",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/ladder.jpg",
+        "image": "https://m.media-amazon.com/images/I/71XGv9N16AL._AC_SL1500_.jpg",
         "borrowedBy": "Amy Whitney"
     },
     {
@@ -250,7 +250,7 @@ const items = [
         "owner": "Kevin Oneal",
         "condition": "Very Good",
         "available": false,
-        "image": "https://example.com/images/crockpot.jpg",
+        "image": "https://m.media-amazon.com/images/I/71b2fKqX4EL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -261,7 +261,7 @@ const items = [
         "owner": "Andrew Campbell",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -272,7 +272,7 @@ const items = [
         "owner": "Lisa Greene",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/ladder.jpg",
+        "image": "https://m.media-amazon.com/images/I/71XGv9N16AL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -283,7 +283,7 @@ const items = [
         "owner": "Jeffrey Booth",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -294,7 +294,7 @@ const items = [
         "owner": "Sean Zavala",
         "condition": "Excellent",
         "available": true,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -305,7 +305,7 @@ const items = [
         "owner": "Kristina Cole",
         "condition": "Excellent",
         "available": false,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": "William Matthews"
     },
     {
@@ -316,7 +316,7 @@ const items = [
         "owner": "David Alvarez",
         "condition": "Very Good",
         "available": true,
-        "image": "https://example.com/images/crockpot.jpg",
+        "image": "https://m.media-amazon.com/images/I/71b2fKqX4EL._AC_SL1500_.jpg",
         "borrowedBy": "Jose Thompson"
     },
     {
@@ -327,7 +327,7 @@ const items = [
         "owner": "Joseph Randall",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/ladder.jpg",
+        "image": "https://m.media-amazon.com/images/I/71XGv9N16AL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -338,7 +338,7 @@ const items = [
         "owner": "Phillip Hall",
         "condition": "Excellent",
         "available": true,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -349,7 +349,7 @@ const items = [
         "owner": "Danny Davis",
         "condition": "Like New",
         "available": false,
-        "image": "https://example.com/images/catan.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Catan-2015-boxart.jpg/220px-Catan-2015-boxart.jpg",
         "borrowedBy": "Ashley Jenkins"
     },
     {
@@ -360,7 +360,7 @@ const items = [
         "owner": "John Ball",
         "condition": "Excellent",
         "available": true,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": "Richard Newman"
     },
     {
@@ -371,7 +371,7 @@ const items = [
         "owner": "Laura Marshall",
         "condition": "Like New",
         "available": true,
-        "image": "https://example.com/images/catan.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Catan-2015-boxart.jpg/220px-Catan-2015-boxart.jpg",
         "borrowedBy": null
     },
     {
@@ -382,7 +382,7 @@ const items = [
         "owner": "James Adams",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -393,7 +393,7 @@ const items = [
         "owner": "Michael Sims",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -404,7 +404,7 @@ const items = [
         "owner": "April Wise",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -415,7 +415,7 @@ const items = [
         "owner": "Robert Pena",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": "Ryan Morris"
     },
     {
@@ -426,7 +426,7 @@ const items = [
         "owner": "Erica Smith",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": "Ryan Williams"
     },
     {
@@ -437,7 +437,7 @@ const items = [
         "owner": "Anthony Morrison",
         "condition": "Excellent",
         "available": false,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -448,7 +448,7 @@ const items = [
         "owner": "Paul Miller",
         "condition": "Very Good",
         "available": false,
-        "image": "https://example.com/images/crockpot.jpg",
+        "image": "https://m.media-amazon.com/images/I/71b2fKqX4EL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -459,7 +459,7 @@ const items = [
         "owner": "John Washington",
         "condition": "Excellent",
         "available": true,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -470,7 +470,7 @@ const items = [
         "owner": "Kimberly Castro",
         "condition": "Excellent",
         "available": true,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -481,7 +481,7 @@ const items = [
         "owner": "Heather Price MD",
         "condition": "Good",
         "available": false,
-        "image": "https://example.com/images/ladder.jpg",
+        "image": "https://m.media-amazon.com/images/I/71XGv9N16AL._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -492,7 +492,7 @@ const items = [
         "owner": "Stephen Schwartz",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/ladder.jpg",
+        "image": "https://m.media-amazon.com/images/I/71XGv9N16AL._AC_SL1500_.jpg",
         "borrowedBy": "Christopher James"
     },
     {
@@ -503,7 +503,7 @@ const items = [
         "owner": "Justin Norris",
         "condition": "Good",
         "available": true,
-        "image": "https://example.com/images/drill.jpg",
+        "image": "https://m.media-amazon.com/images/I/7178W+oD1FL._AC_SL1500_.jpg",
         "borrowedBy": "Alison Walker"
     },
     {
@@ -514,7 +514,7 @@ const items = [
         "owner": "Erica Taylor",
         "condition": "Excellent",
         "available": false,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -525,7 +525,7 @@ const items = [
         "owner": "Douglas Nelson",
         "condition": "Like New",
         "available": false,
-        "image": "https://example.com/images/catan.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Catan-2015-boxart.jpg/220px-Catan-2015-boxart.jpg",
         "borrowedBy": "Emily Johnson"
     },
     {
@@ -536,7 +536,7 @@ const items = [
         "owner": "Timothy Callahan",
         "condition": "Excellent",
         "available": false,
-        "image": "https://example.com/images/tent.jpg",
+        "image": "https://m.media-amazon.com/images/I/71iWf+6mF0L._AC_SL1500_.jpg",
         "borrowedBy": null
     },
     {
@@ -547,7 +547,7 @@ const items = [
         "owner": "Nathaniel Martinez",
         "condition": "Like New",
         "available": true,
-        "image": "https://example.com/images/catan.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Catan-2015-boxart.jpg/220px-Catan-2015-boxart.jpg",
         "borrowedBy": null
     }
 ];
