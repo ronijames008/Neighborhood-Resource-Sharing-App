@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { getAllItems, getItemDetailsById } from '../apiCalls/items';
+import { getAllItems, getItemDetailsById, submitItem } from '../apiCalls/items';
 
 // Async thunk for fetching items
 export const fetchItems = createAsyncThunk('items/fetchItems', async () => {
@@ -11,6 +11,16 @@ export const fetchItems = createAsyncThunk('items/fetchItems', async () => {
 export const fetchItemDetails = createAsyncThunk('items/fetchItemDetails', async (id) => {
     const data = await getItemDetailsById(id);
     return data;
+});
+
+// Async thunk for adding a new item
+export const addItem = createAsyncThunk('items/addItem', async (itemData, { rejectWithValue }) => {
+    try {
+        const data = await submitItem(itemData);
+        return data;
+    } catch (error) {
+        return rejectWithValue(error.response?.data || { message: error.message });
+    }
 });
 
 const itemsSlice = createSlice({
@@ -25,6 +35,9 @@ const itemsSlice = createSlice({
         itemDetails: null,
         itemDetailsLoading: false,
         itemDetailsError: null,
+        addItemLoading: false,
+        addItemSuccess: null,
+        addItemError: null,
     },
     reducers: {
         setSearch(state, action) {
@@ -64,6 +77,26 @@ const itemsSlice = createSlice({
             .addCase(fetchItemDetails.rejected, (state, action) => {
                 state.itemDetailsLoading = false;
                 state.itemDetailsError = action.error.message;
+            })
+            // Add item cases
+            .addCase(addItem.pending, (state) => {
+                state.addItemLoading = true;
+                state.addItemSuccess = null;
+                state.addItemError = null;
+            })
+            .addCase(addItem.fulfilled, (state, action) => {
+                state.addItemLoading = false;
+                state.addItemSuccess = action.payload.message || 'Item added successfully!';
+                state.addItemError = null;
+                // Optionally, add the new item to the items list if success
+                if (action.payload.success && action.payload.item) {
+                    state.items.push(action.payload.item);
+                }
+            })
+            .addCase(addItem.rejected, (state, action) => {
+                state.addItemLoading = false;
+                state.addItemSuccess = null;
+                state.addItemError = action.payload?.message || 'Failed to add item.';
             });
     },
 });
