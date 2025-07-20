@@ -14,8 +14,8 @@ const itemsSlice = createSlice({
         loading: false,
         error: null,
         search: '',
-        category: 'All',
-        availability: 'All',
+        category: 'All Categories',
+        availability: 'Available',
     },
     reducers: {
         setSearch(state, action) {
